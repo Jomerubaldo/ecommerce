@@ -1,8 +1,5 @@
 import Header from './components/Header';
-import Home from './components/Home';
-import Products from './components/Products';
-import Cart from './components/Cart';
-import About from './components/About';
+import Section from './components/Section';
 import Footer from './components/Footer';
 
 function App() {
@@ -10,12 +7,27 @@ function App() {
     <>
       <Header />
       <main className="scroll-smooth">
-        <Home />
-        <Products />
-        <Cart />
-        <About />
-        <Footer />
+        <Section
+          title="HOME"
+          message="Our homepage is under development. Stay tuned!"
+        />
+        <Section
+          title="PRODUCTS"
+          message="Explore a variety of quality items tailored to your lifestyle. New
+          products will be available soon!"
+        />
+        <Section
+          title="CART"
+          message="Your selected items will appear here. Checkout and payment features
+          are coming soon!"
+        />
+        <Section
+          title="ABOUT"
+          message="We're a small team passionate about providing a smooth and stylish
+          online shopping experience."
+        />
       </main>
+      <Footer />
     </>
   );
 }
