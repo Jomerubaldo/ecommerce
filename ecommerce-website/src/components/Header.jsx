@@ -1,9 +1,7 @@
-function Header() {
+const Header = () => {
   return (
     <header className="fixed bg-[#000] w-screen h-16 flex justify-around items-center">
-      <a className="text-white" href="#home">
-        Logo
-      </a>
+      <a className="text-white">Logo</a>
       <nav className="text-white">
         <ul className="flex gap-20 text-lg font-bold">
           <li>
@@ -22,5 +20,5 @@ function Header() {
       </button>
     </header>
   );
-}
+};
 export default Header;

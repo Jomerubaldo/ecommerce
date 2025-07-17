@@ -1,9 +1,11 @@
-const Section = (props) => {
+const Section = ({ title, message, className }) => {
   return (
-    <section id="home">
-      <div className="bg-[#fffffe] w-full h-screen pt-16 text-center text-black">
-        <h1 className="text-5xl font-bold mb-4">{props.title}</h1>
-        <p className="max-w-2xl mx-auto">{props.message}</p>
+    <section>
+      <div
+        className={`${className} w-full h-screen pt-16 text-center text-black`}
+      >
+        <h1 className="text-5xl font-bold mb-4">{title}</h1>
+        <p className="max-w-2xl mx-auto">{message}</p>
       </div>
     </section>
   );

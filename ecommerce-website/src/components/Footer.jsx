@@ -1,4 +1,4 @@
-function Footer() {
+const Footer = () => {
   return (
     <footer>
       <div className="bg-[#fffffe] w-full text-center text-black">
@@ -10,5 +10,5 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 export default Footer;
