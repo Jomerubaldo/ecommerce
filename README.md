@@ -1,3 +1,5 @@
 # Ecommerce Website
 
-## Not done yet still working
+## This is a single page Ecom Website and not done yet
+
+### Techstack used: Tailwindcss and Reactjs
