@@ -8,7 +8,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
-      <div className="bg-[#fffffe] flex justify-around w-full text-wrap">
+      <div className="bg-[#000] flex justify-around w-full text-wrap text-white">
         <ul>
           <p className="font-bold text-[20px] mb-3">Help</p>
           <hr />

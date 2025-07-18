@@ -10,13 +10,19 @@ const Header = () => {
       <nav className="text-white">
         <ul className="flex gap-20 text-lg font-bold">
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" className="hover:text-gray-500">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#products">Products</a>
+            <a href="#products" className="hover:text-gray-500">
+              Products
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" className="hover:text-gray-500">
+              About
+            </a>
           </li>
         </ul>
       </nav>
